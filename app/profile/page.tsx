@@ -3,7 +3,7 @@ import { useState } from "react";
 import Login from "../components/Login";
 
 
-export default function InviteUserForm() {
+export default function profile() {
   const [email, setEmail] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
